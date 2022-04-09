@@ -1,0 +1,456 @@
+body {
+    perspective: 600px;
+}
+
+.greater {
+    color: #d2d1d1;
+    font-size: 10px;
+}
+
+.aFrame {
+    margin-left: 20px;
+
+}
+
+.fontIcon {
+    font-size: 13px;
+    margin-left: 4px;
+    font-weight: 100;
+}
+
+.face {
+    color: white;
+}
+
+.leftSection {
+    height: 100%;
+    /* background-color: yellow; */
+
+}
+
+.gridLeft {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridLeftLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dataLeft {
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    padding-top: 20px;
+    margin-bottom: 0rem;
+    padding-left: 25px;
+}
+
+.dataLeft li {
+    line-height: 4px;
+    font-size: 13px;
+}
+
+.cloc {
+    color: royalblue;
+    font-size: 35px;
+}
+
+.whatsappIcon {
+    color: royalblue;
+    font-size: 35px;
+    padding-left: 25px;
+}
+
+.nowNavbar {
+
+    height: 60px;
+    border-top: solid 1px #d2cccc;
+    border-bottom: solid 1px #d2cccc;
+    display: flex;
+    justify-content: center;
+    z-index: 9999999;
+    background-color: white;
+
+
+}
+
+.ss ul li {
+    background-color: white;
+    /* padding-left: 25px; */
+
+
+}
+
+.nowNavbar .nav-link {
+    text-align: center;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+    margin-left: 0;
+    vertical-align: 0;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+
+}
+
+.nowNavbar .homeListNav {
+    border-right: solid 1px #d2cccc;
+    border-radius: 0px;
+    height: 100%;
+    width: 100px;
+    /* display: flex; */
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+.nowNavbar .borderStyleNav {
+    border-right: solid #d2cccc;
+    border-right-width: 1px;
+    border-radius: 0px;
+    height: 99%;
+    /* display: flex; */
+    align-items: center;
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+    width: 100px;
+}
+
+.nowNavbar .borderStyleShop {
+    border-radius: 0px;
+    height: 99%;
+    /* display: flex; */
+    align-items: center;
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+    width: 100px;
+}
+
+.nowNavbar .homeListNav:hover {
+    border-top: solid 3px royalblue;
+    color: royalblue;
+}
+
+.nowNavbar .borderStyleNav:hover {
+    border-top: solid 3px royalblue;
+    color: royalblue;
+}
+
+.nowNavbar .borderStyleShop:hover {
+    border-top: solid 3px royalblue;
+    color: royalblue;
+}
+
+.nowHome {
+    background-image: url(image/homeImg3.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.nowContant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.h3Home {
+    font-size: 20px;
+}
+
+.h1Home {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.pHome {
+    font-size: 18px;
+    font-style: oblique;
+    color: gray;
+}
+
+.footerHome {
+    background-color: #373742;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.H2home {
+    font-size: 20px;
+    color: white;
+}
+
+.spanHome {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pFooterHome {
+    font-size: 20px;
+    color: gray;
+}
+
+.about {
+    margin-top: 70px;
+    /* background-color: gray; */
+
+}
+
+.imageDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1About {
+    display: none;
+}
+
+.image2About {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+.p1About {
+    margin-top: 25px;
+    font-size: 20px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p2About {
+    margin-top: 25px;
+    color: gray;
+}
+
+.service {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    height: 100%;
+    background-color: #e4e2e2;
+}
+
+.divService {
+    margin-top: 40px;
+}
+
+.h3Service {
+    text-align: center;
+    /* margin-top: 70px; */
+    padding-top: 70px;
+}
+
+.iconsService {
+    color: #3c93ff;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.h4Service {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pService {
+    color: rgb(109 106 106);
+}
+
+.prices {
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* background-color: gray;  */
+
+}
+
+.h3Prices {
+    text-align: center;
+}
+
+.totalDivs {
+    margin-top: 30px;
+}
+
+.pCard {
+    height: 30px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.parent {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* .pDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.divPrice {
+    height: 120px;
+    background-color: #d6d6d6;
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h2Prices {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.dolarSign {
+    font-size: 20px;
+}
+
+.pDivCard {
+    font-size: 10px;
+    color: rgb(230, 222, 222);
+}
+
+.card-body {
+    text-align: center;
+    line-height: 0.75;
+}
+
+.parentSpecial {
+    /* transform: translate3d(-20px , -40px, -20px) ; */
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+
+
+.dropdown-menu .nav-link.dropdown-toggle:hover + .dropdown-menu{
+    display: block;
+    left: 100%;
+}
+.parentSpecial .card-body p{
+    padding: 1px 0;
+
+}
+
+
+.h3Prices {
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+.CarouselParent {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(221, 219, 219);
+}
+
+.carouselDiv {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.imageCarousel {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.textCaruosel {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.h6Carousel {
+    padding-top: 20px;
+}
+
+.carIndicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(51, 148, 238);
+}
+
+.h6Touch {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.p1Touch {
+    font-size: 13px;
+    color: #373742;
+    color: rgb(141, 141, 141);
+
+}
+
+.aTouch {
+    font-size: 13px;
+    color: #373742;
+    font-weight: 700;
+    color: white;
+}
+
+.instedP {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(199, 199, 199);
+}
+
+.instedDate {
+    font-size: 12px;
+    color: gray;
+}
+
+.finalIcon {
+    font-size: 12px;
+    font-weight: 900;
+    color: #6378d6;
+}
+
+.finalPTouch {
+    color: #6378d6;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.touch {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: rgb(36, 36, 36);
+    height: 100%;
+    line-height: 1.7;
+}

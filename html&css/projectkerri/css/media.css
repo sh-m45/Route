@@ -1,0 +1,37 @@
+@media(max-width:576px) /* xs small*/
+{
+.nav-pills{width:100% !important}
+nav{background-color: #fff;}
+.logo-1{display: none;}
+.logo-2{display: block;}
+.navbar-nav{width:100% !important}
+.nav-link{color:#212529}
+}
+@media(min-width:577px) and (max-width:767px) /*small*/
+{
+    .nav-pills{width:100% !important}
+    nav{background-color: #fff;}
+    .logo-1{display: none;}
+.logo-2{display: block;}
+.navbar-nav{width:100% !important}
+.nav-link{color:#212529}
+}
+
+@media(min-width:768px) and (max-width:991px) /*medium*/
+{
+    .nav-pills{width:50% !important}
+    
+    .logo-1{display: none;}
+    .logo-2{display: block;}
+    .navbar-nav{width:100% !important}
+    .nav-link{color:#212529}
+}
+
+@media(min-width:992px) and (max-width:1200px) {/*large*/
+    .nav-pills{width:50% !important}
+}
+
+@media(min-width:1201px) /*x large*/
+{
+
+}
